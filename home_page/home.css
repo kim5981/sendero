@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    background-color: aqua;
+    height: 650px;
+}
+
+.header-wrap{
+    display: flex;
+    margin: 0 auto;
+    position: fixed;
+    left:0;
+    right:0;
+    justify-content: center;
+    padding: auto;
+    width: 100vw;  
+    height: 10vmax;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    align-content: space-between;
+    width: 25vw;
+    padding-right: 40%;
+    padding-left: 1%;
+}
+
+.sendero{
+    font-size: xx-large;
+}
+
+nav{
+    width: 75vw;
+    align-content: space-evenly;
+    position: relative;
+    padding-right: 5%;
+}
+
+.nav-button{
+        padding: 2% 6% 2% 6%;
+        margin-left: 2%;
+        margin-right: 2%;
+}
+
+#slogan{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    width: 1000px;
+    height: 800px;
+    border-color: black;
+    border-width: 1em;
+}
+
+.slice{
+    background-color: darkcyan;
+    height: 150px;
+}
+
+footer{
+    background-attachment: fixed;
+    background-color: darkolivegreen;
+}
