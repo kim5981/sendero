@@ -107,14 +107,40 @@ nav{
 
 .slice{
     background-color: darkcyan;
-    height: 150px;
+    width: 100%;
+    height: 225px;
     display: flex;
-    align-content: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .cta{
     display: flex;
-    padding: 3% 8% 3% 8%;
+    justify-content: center;
+    align-content: center;
+    padding-top: -5%;
+    font-size: 38px;
+    width: 50%;
+}
+
+#learn-more{
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 1% 1% 0;
+}
+
+#learn-more p{
+    font-size: large;
+    font-weight: bold;
+}
+
+#learn-more button{
+    border-style: none;
+    border-radius: 2px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
 }
 
 /*----- Footer Styling -----*/
