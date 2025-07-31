@@ -121,6 +121,7 @@ nav{
     line-height: 42px;
     width: 50%;
     padding-top: 3.5%;
+    padding-left: 3%;
     line-height: 55px;
 }
 
@@ -175,4 +176,31 @@ footer p{
 
 .contact{
     display: flex;
+}
+
+.contact p{
+    padding: 1.5% 0 1.5% 0;
+}
+
+.info{
+    padding-right: 15%;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    padding: 1% 2% 1% 0;
+}
+
+.icons-wrap{
+    display: flex;
+    align-content: space-between;
+}
+
+.icons-wrap img{
+    padding-right: 3%;
+}
+
+.follow{
+    padding-top: 10%;
 }
