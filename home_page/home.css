@@ -9,8 +9,9 @@
 header{
     display: flex;
     background-color: aqua;
-    height: 600px;
+    height: 500px;
     min-width: 100%;
+    position: relative
 }
 
 header video{
@@ -67,10 +68,10 @@ nav{
 #slogan{
     display: flex;
     justify-content: center;
-    padding-top: 17%;
+    padding-top: 12%;
     padding-left: 3%;
     width: 1000px;
-    height: 800px;
+    height: 500px;
     font-size: 2.5em;
 }
 
@@ -88,7 +89,6 @@ nav{
   animation: fadeIn 5s ease-in-out forwards; 
 }
 
-
 #slogan .logo{
     height: 200px;
     width: 25%;
@@ -102,12 +102,13 @@ nav{
     line-height: 70px;
 }
 
-
-
 /*----- Service Slice Styling -----*/
 
 .slice{
-    background-color: darkcyan;
+    background: #f2e9c9;
+    background: radial-gradient(
+        circle, rgb(154, 137, 111) 0%, 
+        rgba(10, 112, 100, 1) 100%);
     width: 100%;
     height: 225px;
     display: flex;
@@ -155,7 +156,7 @@ nav{
 
 footer{
     background-attachment: fixed;
-    background-color: darkolivegreen;
+    background-color: rgb(12, 92, 82);
     color: white;
     font-size: large;
     display: flex;
@@ -180,6 +181,8 @@ footer p{
 #maps{
     width: 350px;
     height: 200px;
+    border: none;
+    box-shadow: 5px 2px 15px 2px rgb(1, 37, 37);
 }
 
 .contact{
