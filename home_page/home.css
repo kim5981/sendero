@@ -23,53 +23,14 @@ header{
         linear-gradient(to bottom, rgb(0, 34, 26) 0%, transparent 100%);
 }
 
-.logo-wrap{
+.logo{
     display: flex;
     justify-content: center;
     width: 45%;
-    padding-right: 15%;
-    padding-left: 1%;
-}
-
-.logo-wrap img{
-    width: 80px;
-    height: 80px;
-}
-
-.name{
-    display: flex;
-    flex-direction: column;
-    height: 80px;
-    width: 60%;
-    color: white;
-    font-size: 24px;
-    text-align: start;
-    align-content: center;
-}
-
-.arrange-text{
-    display: flex;
-    width: 25%;
-}
-
-.nuevo{
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: -32px;
-    margin-top: -1.5px;
-    padding-left: 1%;
-}
-
-.small{
-    font-size: 14px;
-    font-weight: bold;
-    padding: 10% 5% 0 8%; 
-}
-
-.sendero{
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 2px;
+    padding-right: 10%;
+    height: 200px;
+    margin-top: -3%;
+    margin-left: -10%;
 }
 
 nav{
