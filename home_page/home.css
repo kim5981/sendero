@@ -123,25 +123,31 @@ nav{
     width: 50%;
 }
 
+.slice-details{
+    font-size: 37px;
+    line-height: 42px;
+    width: 50%;
+}
+
 #learn-more{
     display: flex;
-    justify-content: space-around;
-    padding: 1% 1% 1% 0;
+    margin-top: -7%;
 }
 
 #learn-more p{
-    font-size: large;
+    font-size: 32px;
     font-weight: bold;
 }
 
 #learn-more button{
     border-style: none;
-    border-radius: 2px;
     background-color: transparent;
     color: white;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 32px;
 }
+
+
 
 /*----- Footer Styling -----*/
 
