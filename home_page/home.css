@@ -22,8 +22,7 @@ header{
     justify-content: center;
     height: 10vmax;
     width: 100%;
-    background: 
-        linear-gradient(to bottom, rgb(0, 34, 26) 0%, transparent 100%);
+    background: linear-gradient(to bottom, rgb(45, 92, 81) 0, transparent 85%);
 }
 
 .logo{
