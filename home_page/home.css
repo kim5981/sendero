@@ -152,18 +152,27 @@ footer{
     display: flex;
 }
 
-.location{
-    padding: 2% 2% 2% 8%;
-    width: 50%;
-}
-
-.location h4{
+footer h4{
     padding-bottom: 2%;
     font-size: 24px;
 }
 
-.location p{
+footer p{
     line-height: 25px;
     font-size: 18px;
     padding-bottom: 2%;
+}
+
+.com{
+    padding: 2% 2% 2% 8%;
+    width: 50%;
+}
+
+#maps{
+    width: 350px;
+    height: 200px;
+}
+
+.contact{
+    display: flex;
 }
