@@ -139,12 +139,9 @@ nav{
     font-weight: bold;
 }
 
-#learn-more button{
-    border-style: none;
-    background-color: transparent;
-    color: white;
-    font-weight: bolder;
-    font-size: 32px;
+#learn-more img{
+    height: 50px;
+    width: 50px;
 }
 
 
